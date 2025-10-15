@@ -20,7 +20,7 @@ function App() {
         }}
       >
         <input value={input} onChange={(e) => setInput(e.target.value)} />
-        <Button>Submit</Button>
+        <Button>Tambah</Button>
       </form>
       <div className="list-container">
         {list.map((todo, index) => (

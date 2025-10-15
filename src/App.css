@@ -51,12 +51,15 @@ input {
   padding: 0.5rem 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
-  max-width: 480px;
+  max-width: 1080px;
 }
 
 .todo-card-container p {
   font-size: 1.25rem;
   font-weight: 500;
+  word-wrap: break-word;
+  max-width: 50%;
+  text-align: start;
 }
 
 .todo-action {

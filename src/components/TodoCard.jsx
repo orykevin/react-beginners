@@ -37,7 +37,7 @@ export const TodoCard = ({ todoText, setList, index } = props) => {
             setList((list) => list.filter((value, i) => i !== index));
           }}
         >
-          Delete
+          Hapus
         </Button>
       </div>
     </div>
